@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/department-of-veterans-affairs/sniffybara.git
+  revision: 351560b5789ca638ba7c9b093c2bb1a9a6fda4b3
+  specs:
+    sniffybara (1.1.0)
+      rainbow
+      selenium-webdriver
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -377,6 +385,7 @@ DEPENDENCIES
   sidekiq
   simplecov
   simplecov-lcov
+  sniffybara!
   spring
   spring-watcher-listen (~> 2.0.0)
   twilio-ruby

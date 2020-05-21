@@ -22,5 +22,5 @@ class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
     Capybara::Selenium::Driver.new(app, browser: :chrome, options: options)
   end
 
-  driven_by driver, using: :chrome, screen_size: [1400, 1400]
+  driven_by :sniffybara, using: :chrome, screen_size: [1400, 1400]
 end

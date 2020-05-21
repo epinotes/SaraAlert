@@ -98,6 +98,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'simplecov'
   gem 'simplecov-lcov'
+  gem 'sniffybara', git: 'https://github.com/department-of-veterans-affairs/sniffybara.git'
   gem 'webdrivers'
 end
 
